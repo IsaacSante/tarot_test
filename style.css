@@ -1,0 +1,58 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 0;
+  padding: 3%;
+  background: #276f5e;
+  background: -webkit-linear-gradient(top left, #276f5e, #96ab2b);
+  background: -moz-linear-gradient(top left, #276f5e, #96ab2b);
+  background: linear-gradient(to bottom right, #276f5e, #96ab2b);
+  font-size: 15px;
+}
+
+p {
+  font-size: 15px;
+}
+
+h1 {
+  font-style: italic;
+  color: white;
+}
+
+.card {
+  text-align: center;
+  margin-bottom: 5%;
+}
+.lizardpic {
+  width: 20%;
+  border-radius: 15px;
+}
+
+.pc {
+  justify-content: center;
+}
+
+.blinking {
+  color: red;
+  animation: blinkingText 1.2s infinite;
+}
+@keyframes blinkingText {
+  0% {
+    color: black;
+  }
+  49% {
+    color: black;
+  }
+  60% {
+    color: transparent;
+  }
+  99% {
+    color: transparent;
+  }
+  100% {
+    color: black;
+  }
+}
+
+.user {
+  color: white;
+}
